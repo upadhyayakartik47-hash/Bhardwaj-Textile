@@ -1,0 +1,224 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ONI | Bhardwaj Textile</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<div class="topbar">
+  PREMIUM WHOLESALE TEXTILES | BHARDWAJ TEXTILE
+</div>
+
+<header>
+  <a href="#home" class="logo">
+    ONI
+    <span>BHARDWAJ TEXTILE</span>
+  </a>
+
+  <button class="menu-btn" id="menuBtn">☰</button>
+
+  <nav id="navigation">
+    <a href="#home">HOME</a>
+    <a href="#collections">COLLECTIONS</a>
+    <a href="#about">OUR STORY</a>
+    <a href="#wholesale">WHOLESALE</a>
+    <a href="#contact">CONTACT</a>
+  </nav>
+
+  <a href="#contact" class="gold-btn header-btn">ENQUIRE NOW</a>
+</header>
+
+<main>
+  <section class="hero" id="home">
+    <div class="hero-overlay"></div>
+    <div class="container hero-content">
+      <p class="eyebrow">THE SIGNATURE OF FINE TEXTILES</p>
+      <h1>Luxury Is Woven<br>Into <em>Every Thread.</em></h1>
+      <p class="hero-description">
+        Discover premium wholesale fabrics where exceptional
+        quality meets timeless elegance.
+      </p>
+      <div class="hero-buttons">
+        <a href="#collections" class="gold-btn">EXPLORE COLLECTION</a>
+        <a href="#contact" class="outline-btn">BUSINESS ENQUIRY</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="features">
+    <div class="container feature-grid">
+      <div><strong>01</strong><span>PREMIUM SELECTION</span></div>
+      <div><strong>02</strong><span>WHOLESALE FOCUS</span></div>
+      <div><strong>03</strong><span>QUALITY FIRST</span></div>
+      <div><strong>04</strong><span>BUSINESS PARTNERSHIPS</span></div>
+    </div>
+  </section>
+
+  <section class="section catalogue" id="collections">
+    <div class="section-title">
+      <p class="eyebrow">THE FABRIC COLLECTION</p>
+      <h2>Explore Our <em>Collections</em></h2>
+      <p>Premium fabric selections for businesses and designers.</p>
+    </div>
+
+    <div class="filters">
+      <button class="filter active" data-filter="all">ALL</button>
+      <button class="filter" data-filter="silk">SILK</button>
+      <button class="filter" data-filter="cotton">COTTON</button>
+      <button class="filter" data-filter="designer">DESIGNER</button>
+      <button class="filter" data-filter="premium">PREMIUM</button>
+    </div>
+
+    <div class="product-grid">
+
+      <article class="product-card" data-category="silk premium">
+        <img src="https://images.unsplash.com/photo-1617627143750-d86bc21e42bb?auto=format&fit=crop&w=800&q=85" alt="Silk fabric">
+        <div class="product-info">
+          <small>SILK COLLECTION</small>
+          <h3>Royal Silk</h3>
+          <p>Elegant fabric selections for sophisticated creations.</p>
+          <button class="enquire-btn" data-product="Royal Silk">ENQUIRE ↗</button>
+        </div>
+      </article>
+
+      <article class="product-card" data-category="cotton">
+        <img src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?auto=format&fit=crop&w=800&q=85" alt="Cotton fabric">
+        <div class="product-info">
+          <small>COTTON COLLECTION</small>
+          <h3>Classic Cotton</h3>
+          <p>Versatile textile options for everyday applications.</p>
+          <button class="enquire-btn" data-product="Classic Cotton">ENQUIRE ↗</button>
+        </div>
+      </article>
+
+      <article class="product-card" data-category="designer premium">
+        <img src="https://images.unsplash.com/photo-1590736969955-71cc94901144?auto=format&fit=crop&w=800&q=85" alt="Designer textile">
+        <div class="product-info">
+          <small>DESIGNER COLLECTION</small>
+          <h3>Designer Fabrics</h3>
+          <p>Distinctive textures for premium designs.</p>
+          <button class="enquire-btn" data-product="Designer Fabrics">ENQUIRE ↗</button>
+        </div>
+      </article>
+
+      <article class="product-card" data-category="premium">
+        <img src="https://images.unsplash.com/photo-1528459801416-a9e53bbf4e17?auto=format&fit=crop&w=800&q=85" alt="Luxury textile">
+        <div class="product-info">
+          <small>PREMIUM COLLECTION</small>
+          <h3>Luxury Textures</h3>
+          <p>Refined fabric options with elegant visual appeal.</p>
+          <button class="enquire-btn" data-product="Luxury Textures">ENQUIRE ↗</button>
+        </div>
+      </article>
+
+      <article class="product-card" data-category="designer">
+        <img src="https://images.unsplash.com/photo-1490481651871-ab68de25d43d?auto=format&fit=crop&w=800&q=85" alt="Fashion textile">
+        <div class="product-info">
+          <small>FASHION COLLECTION</small>
+          <h3>Fashion Textiles</h3>
+          <p>Fabric inspirations for contemporary businesses.</p>
+          <button class="enquire-btn" data-product="Fashion Textiles">ENQUIRE ↗</button>
+        </div>
+      </article>
+
+      <article class="product-card" data-category="silk premium">
+        <img src="https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&w=800&q=85" alt="Signature textile">
+        <div class="product-info">
+          <small>EXCLUSIVE COLLECTION</small>
+          <h3>Signature Fabrics</h3>
+          <p>Curated textile options for distinctive collections.</p>
+          <button class="enquire-btn" data-product="Signature Fabrics">ENQUIRE ↗</button>
+        </div>
+      </article>
+
+    </div>
+  </section>
+
+  <section class="section about" id="about">
+    <div class="container about-grid">
+      <img src="https://images.unsplash.com/photo-1529139574466-a303027c1d8b?auto=format&fit=crop&w=1000&q=85" alt="Textile craftsmanship">
+
+      <div class="about-content">
+        <p class="eyebrow">THE ONI IDENTITY</p>
+        <h2>Beyond Fabric.<br><em>A Mark Of Quality.</em></h2>
+        <p>
+          At ONI Bhardwaj Textile, we believe great textiles
+          form the foundation of exceptional creations.
+        </p>
+        <p>
+          Our vision is to serve the wholesale textile industry
+          with a focus on quality, selection and long-term
+          business relationships.
+        </p>
+        <a href="#contact" class="gold-btn">DISCOVER ONI</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section wholesale" id="wholesale">
+    <div class="section-title">
+      <p class="eyebrow">BUILT FOR BUSINESS</p>
+      <h2>Wholesale <em>Partnerships</em></h2>
+      <p>A simple process for your textile sourcing requirements.</p>
+    </div>
+
+    <div class="container process-grid">
+      <div><span>01</span><h3>Explore</h3><p>Discover our fabric categories.</p></div>
+      <div><span>02</span><h3>Enquire</h3><p>Share your required fabric and quantity.</p></div>
+      <div><span>03</span><h3>Connect</h3><p>Discuss availability and wholesale pricing.</p></div>
+    </div>
+  </section>
+
+  <section class="banner">
+    <p class="eyebrow">YOUR BUSINESS. OUR TEXTILES.</p>
+    <h2>Let's Create Something <em>Exceptional.</em></h2>
+    <a href="#contact" class="gold-btn">START AN ENQUIRY</a>
+  </section>
+
+  <section class="section contact" id="contact">
+    <div class="container contact-grid">
+      <div>
+        <p class="eyebrow">GET IN TOUCH</p>
+        <h2>Let's Talk <em>Textiles.</em></h2>
+        <p>Looking for wholesale fabric supplies? Tell us what your business needs.</p>
+        <div class="contact-details">
+          <p><strong>BUSINESS</strong><br>ONI Bhardwaj Textile</p>
+          <p><strong>LOCATION</strong><br>Add your business address</p>
+          <p><strong>ENQUIRIES</strong><br>Wholesale & Bulk Orders</p>
+        </div>
+      </div>
+
+      <form id="enquiryForm">
+        <input id="name" placeholder="Your Name" required>
+        <input id="business" placeholder="Business Name">
+        <input id="phone" type="tel" placeholder="Phone Number" required>
+        <select id="fabric" required>
+          <option value="">Select Fabric</option>
+          <option>Royal Silk</option>
+          <option>Classic Cotton</option>
+          <option>Designer Fabrics</option>
+          <option>Luxury Textures</option>
+          <option>Other</option>
+        </select>
+        <input id="quantity" placeholder="Required Quantity / Metres">
+        <textarea id="message" placeholder="Your Requirements"></textarea>
+        <button class="gold-btn" type="submit">SEND ENQUIRY ↗</button>
+      </form>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <a href="#home" class="logo">ONI<span>BHARDWAJ TEXTILE</span></a>
+  <p>THE ART OF FINE TEXTILES · THE SIGNATURE OF QUALITY</p>
+  <p class="copyright">© 2026 ONI BHARDWAJ TEXTILE. ALL RIGHTS RESERVED.</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
